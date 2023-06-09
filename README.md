@@ -17,11 +17,17 @@ Chris Watkins first discussed the foundations of Q-learning in a 1989 thesis for
 Q-learning models operate in an iterative process that involves multiple components working together to help train a model. The iterative process involves the agent learning by exploring the environment and updating the model as the exploration continues. The multiple components of Q-learning include the following:
 
 *Agents*. The agent is the entity that acts and operates within an environment.
+
 *States*. The state is a variable that identifies the current position in an environment of an agent.
+
 *Actions*. The action is the agent's operation when it is in a specific state.
+
 *Rewards*. A foundational concept within reinforcement learning is the concept of providing either a positive or a negative response for the agent's actions.
+
 *Episodes*. An episode is when an agent can no longer take a new action and ends up terminating.
+
 *Q-values*. The Q-value is the metric used to measure an action at a particular state.
+
 Here are the two methods to determine the Q-value:
 
 Temporal difference. The temporal difference formula calculates the Q-value by incorporating the value of the current state and action by comparing the differences with the previous state and action.
