@@ -1,5 +1,8 @@
 # Q-learning_with_SMA_implementation
 
+![image](https://github.com/EmoNasr/Q-learning_with_SMA_implementation/assets/87880384/36a57974-fea6-4ae0-8cc3-64e4053d5c73)
+
+
 **What is Q-learning?**
 Q-learning is a machine learning approach that enables a model to iteratively learn and improve over time by taking the correct action. Q-learning is a type of reinforcement learning.
 
