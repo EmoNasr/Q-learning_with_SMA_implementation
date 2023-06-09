@@ -42,11 +42,13 @@ Q-learning models work through trial-and-error experiences to learn the optimal 
 
 **Result with SMA**
   **Best path**
+  
 Hello! Agent  agent0@192.168.1.106:1099/JADE is ready.
 Hello! Agent  agent1@192.168.1.106:1099/JADE is ready.
 Hello! Agent  agent2@192.168.1.106:1099/JADE is ready.
 Hello! Agent  agent3@192.168.1.106:1099/JADE is ready.
 Hello! Agent  agent4@192.168.1.106:1099/JADE is ready.
+
 Agent agent0@192.168.1.106:1099/JADE is starting from (0,0)
 (0,0) -> 3
 (0,1) -> 3
@@ -59,6 +61,7 @@ Agent agent0@192.168.1.106:1099/JADE is starting from (0,0)
 (3,5) -> 1
 (4,5) -> 1
 Goal reached : (5 5)
+
 Agent agent2@192.168.1.106:1099/JADE is starting from (0,0)
 (0,0) -> 3
 (0,1) -> 3
@@ -71,6 +74,7 @@ Agent agent2@192.168.1.106:1099/JADE is starting from (0,0)
 (3,5) -> 1
 (4,5) -> 1
 Goal reached : (5 5)
+
 Agent agent4@192.168.1.106:1099/JADE is starting from (0,0)
 (0,0) -> 3
 (0,1) -> 3
@@ -83,6 +87,7 @@ Agent agent4@192.168.1.106:1099/JADE is starting from (0,0)
 (3,5) -> 1
 (4,5) -> 1
 Goal reached : (5 5)
+
 Agent agent1@192.168.1.106:1099/JADE is starting from (0,0)
 (0,0) -> 3
 (0,1) -> 3
@@ -95,6 +100,7 @@ Agent agent1@192.168.1.106:1099/JADE is starting from (0,0)
 (3,5) -> 1
 (4,5) -> 1
 Goal reached : (5 5)
+
 Agent agent3@192.168.1.106:1099/JADE is starting from (0,0)
 (0,0) -> 3
 (0,1) -> 3
@@ -107,8 +113,11 @@ Agent agent3@192.168.1.106:1099/JADE is starting from (0,0)
 (3,5) -> 1
 (4,5) -> 1
 Goal reached : (5 5)
+
   **Q-Table**
+  
   agent0@192.168.1.106:1099/JADE
+  
 0.34867843889971595 0.31381054966767624 0.3486784396046058 0.3874204889999975
 0.38742048721412586 0.3486784386231792 0.34867843947839783 0.43046720999999744
 0.430467209996667 0.3874204888288516 0.38742048899148046 0.47829689999999736
@@ -151,8 +160,11 @@ agent2@192.168.1.106:1099/JADE
 0.43046720998613
 
 
+
 **Result without SMA**
-***********qTable***********
+
+***********Q-Table***********
+
 |0.3874204889999975|	0.3138105115754162|	0.3486784399576183|	0.34867844003996645|	|
 |0.43046720999999744|	0.34867843087323913|	0.3486784381274481|	0.3874204889117825|	|
 |0.47829689999999736|	0.3874204875944293|	0.38742048792582745|	0.4304672099819629|	|
@@ -189,24 +201,34 @@ agent2@192.168.1.106:1099/JADE
 |0.45451943310534826|	0.008080389900000002|	0.0|	0.007912752007908763|	|
 |0.9282102012308148|	0.12524641509007803|	0.05035674756903301|	0.19759864395535265|	|
 |0.0|	0.0|	0.0|	0.0|	|
+
 State: (0) | Best action: 0
 New state: (1)
+
 State: (1) | Best action: 0
 New state: (2)
+
 State: (2) | Best action: 0
 New state: (3)
+
 State: (3) | Best action: 0
 New state: (4)
+
 State: (4) | Best action: 0
 New state: (5)
+
 State: (5) | Best action: 1
 New state: (11)
+
 State: (11) | Best action: 1
 New state: (17)
+
 State: (17) | Best action: 1
 New state: (23)
+
 State: (23) | Best action: 1
 New state: (29)
+
 State: (29) | Best action: 1
 New state: (35)
 
