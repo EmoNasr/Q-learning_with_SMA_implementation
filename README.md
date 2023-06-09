@@ -31,5 +31,8 @@ Q-learning models operate in an iterative process that involves multiple compone
 Here are the two methods to determine the Q-value:
 
 Temporal difference. The temporal difference formula calculates the Q-value by incorporating the value of the current state and action by comparing the differences with the previous state and action.
-Bellman's equation. Mathematician Richard Bellman invented this equation in 1957 as a recursive formula for optimal decision-making. In the q-learning context, Bellman's equation is used to help calculate the value of a given state and assess its relative position. The state with the highest value is considered the optimal state.
+Bellman's equation.
+Mathematician Richard Bellman invented this equation in 1957 as a recursive formula for optimal decision-making. In the q-learning context, Bellman's equation is used to help calculate the value of a given state and assess its relative position. The state with the highest value is considered the optimal state.
 Q-learning models work through trial-and-error experiences to learn the optimal behavior for a task. The Q-learning process involves modeling optimal behavior by learning an optimal action value function or q-function. This function represents the optimal long-term value of action a in state s and subsequently follows optimal behavior in every subsequent state.
+![image](https://github.com/EmoNasr/Q-learning_with_SMA_implementation/assets/87880384/333f3b48-daaf-4f5a-9f92-be61b7c0d868)
+
